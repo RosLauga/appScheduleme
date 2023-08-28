@@ -43,9 +43,9 @@ Also the agenda it will visible to get once you click in the "Read about my day"
 
 ## What you cant do
 
-You cant delete a item from the list.
-You cant edit a item from the list.
-You cant pick another day, only the current day is available.
+|You cant delete a item from the list.
+|You cant edit a item from the list.
+|You cant pick another day, only the current day is available.
 
 ## technologies
 
