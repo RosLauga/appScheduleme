@@ -34,4 +34,34 @@ and to run the API you will need to run this command
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Run the app
+## About the app
+
+This app is a mix between the functionality of a time picker, a ToDo list and chatgpt.
+You are able to save in a json file all the things you wanna do later picking a time in a day.
+You can ask to chatGPT to read all the things that you have in the list, the chat will read it in chronological order.
+Also the agenda it will visible to get once you click in the "Read about my day" button.
+
+## What you cant do
+
+You cant delete a item from the list.
+You cant edit a item from the list.
+You cant pick another day, only the current day is available.
+
+## technologies
+
+## Front:
+
+Nextjs
+Redux
+Bootstrap
+
+## Back:
+
+Node js
+Express js
+
+## Others:
+
+VsCode
+Git
+svgrepo
