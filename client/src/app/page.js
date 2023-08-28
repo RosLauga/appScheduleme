@@ -61,8 +61,8 @@ export default function Home() {
   useEffect(() => {
     if (scheduleReading) {
       setReadingSchedule(scheduleReading.data);
-      setSkip(true);
       refetch();
+      setSkip(true);
     }
   }, [scheduleReading]);
 
@@ -121,7 +121,10 @@ export default function Home() {
 
   const handleReading = (e) => {
     e.preventDefault();
-    if (name && schedules.length) setSkip(false);
+    if (name && schedules.length) {
+      setSkip(false);
+      console.log("Skip false");
+    }
     if (!schedules.length) {
       Swal.fire({
         title: "Oops!",
@@ -139,18 +142,15 @@ export default function Home() {
   const validateInputs = async () => {
     const errorcheck = { ...error };
     if (!inputData.time) {
-      console.log("Entre time");
       errorcheck.time = true;
     } else {
       errorcheck.time = false;
     }
     if (!inputData.text) {
-      console.log("Entre text");
       errorcheck.text = true;
     } else {
       errorcheck.text = false;
     }
-    console.log(errorcheck);
     setError(errorcheck);
   };
 
@@ -193,6 +193,7 @@ export default function Home() {
                   .typeString(readingSchedule.replace(/\./g, "<br>"))
                   .callFunction(() => {
                     setShowAgenda(true);
+                    setSkip(true);
                   })
                   .start();
               }}

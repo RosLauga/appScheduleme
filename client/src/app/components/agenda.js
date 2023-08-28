@@ -7,11 +7,9 @@ const Agenda = ({ data }) => {
         {data &&
           data.map((item, index) => {
             return (
-              <>
-                <li key={index}>
-                  {new Date(item.time).toLocaleString()}: {item.text}
-                </li>
-              </>
+              <li key={index}>
+                {new Date(item.time).toLocaleString()}: {item.text}
+              </li>
             );
           })}
       </ul>
