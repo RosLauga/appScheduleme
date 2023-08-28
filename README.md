@@ -44,24 +44,24 @@ Also the agenda it will visible to get once you click in the "Read about my day"
 ## What you cant do
 
 |You cant delete a item from the list.<br/>
-|You cant edit a item from the list.\
-|You cant pick another day, only the current day is available.\
+|You cant edit a item from the list.<br/>
+|You cant pick another day, only the current day is available.<br/>
 
 ## technologies
 
 ## Front:
 
-Nextjs
-Redux
-Bootstrap
+Nextjs<br/>
+Redux<br/>
+Bootstrap<br/>
 
 ## Back:
 
-Node js
-Express js
+Node js<br/>
+Express js<br/>
 
 ## Others:
 
-VsCode
-Git
-svgrepo
+VsCode<br/>
+Git<br/>
+svgrepo<br/>
