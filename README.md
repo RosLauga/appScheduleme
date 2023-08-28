@@ -40,14 +40,20 @@ This app is a mix between the functionality of a time picker, a ToDo list and ch
 You are able to save in a json file all the things you wanna do later picking a time in a day.
 You can ask to chatGPT to read all the things that you have in the list, the chat will read it in chronological order.
 Also the agenda it will visible to get once you click in the "Read about my day" button.
+<br/>
 
-## What you cant do
+## Core
+When you first in the app ask you to put your name, you can do it right there or later when you are looking for the reading of the schedule.
+The inputs are validated in the front and if you don't fullfill the inputs you can't add a new item in the list or ask to chatGPT for your agenda.
+I use some libraries to help me to achieve some effect like typewritter effect.
 
-|You cant delete a item from the list.<br/>
-|You cant edit a item from the list.<br/>
-|You cant pick another day, only the current day is available.<br/>
+## Some functionalities that don't get in
 
-## technologies
+| Can't delete a item from the list.<br/>
+| Can't edit a item from the list.<br/>
+| Can't pick another day, only the current day is available.<br/>
+
+## Technologies
 
 ## Front:
 
