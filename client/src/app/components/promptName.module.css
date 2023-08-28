@@ -1,0 +1,25 @@
+.inputNameText {
+    padding: .5em .6em;
+    min-width: 200px;
+    max-width: 40vw;
+    width: 100%;
+    margin:1em 0;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    outline: none;
+}
+
+.containerForm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttonSubmit {
+    padding: .3em .6em;
+    background-color: rgba(79, 167, 44, 0.582);
+    color: white;
+    max-width: 6em;
+
+}

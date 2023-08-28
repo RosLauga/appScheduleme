@@ -1,0 +1,13 @@
+.containerAgenda {
+    padding: 1em;
+    color: white;
+  }
+  
+  .containerAgenda ul {
+    list-style-type: upper-roman;
+    margin-left: 1em;
+  }
+  
+  .containerAgenda ul li {
+    margin: .5em 0;
+  }

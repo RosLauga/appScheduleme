@@ -1,0 +1,15 @@
+.modalContainer {
+    border:2px solid white;
+    background-color: transparent;
+  }
+
+.modalHeader h2{
+    text-align: center;
+    width: 100%;
+}
+
+.modalBody {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+}

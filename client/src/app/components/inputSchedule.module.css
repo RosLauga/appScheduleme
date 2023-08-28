@@ -1,0 +1,42 @@
+.formSubmit {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputDescribeText {
+    padding: .5em .6em;
+    min-width: 200px;
+    max-width: 40vw;
+    width: 100%;
+    margin:1em 0;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+}
+
+.inputDescribeText:focus{    
+    outline: unset;
+}
+
+.errorBlur {
+    box-shadow:0px 0px 2px 4px rgba(228, 71, 24, 0.582)
+}
+
+.containerButtons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.buttonSubmit {
+    padding: .3em .6em;
+    background-color: rgba(79, 167, 44, 0.582);
+    color: white;
+    min-width: 6em;
+}
+
+.buttonReadingSchedule {
+    background-color: rgb(91, 81, 231);
+    color: white;
+    padding: .5em .7em;
+  }
